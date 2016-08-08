@@ -1,0 +1,40 @@
+<a class="skipnav" href="#main-content">Skip to main content</a>
+
+<header class="usa-site-header" role="banner">
+
+  <div class="usa-disclaimer">
+    <span class="usa-disclaimer-official">
+      <img class="usa-flag_icon" alt="{{ site.banner_alt}}" src="{{ site.baseurl }}/assets/img/us_flag_small.png">
+      {{ site.banner }}
+    </span>
+    <span class="usa-disclaimer-stage">This site is currently in {{ site.phase }} <a href="https://18f.gsa.gov/dashboard/stages/#{{ site.phase }}">Learn more.</a></span>
+  </div>
+
+  <div class="site-navbar">
+    <a class="menu-btn" href="#">Menu</a>
+    <div class="site-logo" id="logo">
+      <em>
+        <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
+        {{ site.title }}</a>
+      </em>
+    </div>
+  </div>
+  <nav class="site-nav-secondary js-sticky-nav">
+    <ul>
+      <li>
+        <a {% if page.category == 'UI components' or page.title == 'UI components' %}class="usa-current"{% endif %} href="/">UI COMPONENTS</a>
+      </li>
+      <li>
+        <a {% if page.category == 'Getting started' or page.title == 'Getting started' %}class="usa-current"{% endif %} href="/getting-started/">GETTING STARTED</a>
+      </li>
+      <li>
+        <a {% if page.title == 'References' %}class="usa-current"{% endif %} href="/design-principles/">References</a>
+      </li>
+      <li>
+        <a {% if page.category == 'About our work' or page.title == 'About our work' %}class="usa-current"{% endif %} href="/about-our-work/">ABOUT OUR WORK</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<div class="overlay"></div>

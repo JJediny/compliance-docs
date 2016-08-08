@@ -1,0 +1,64 @@
+---
+# Site Information
+name: Data.gov System Security Plan
+branch: gh-pages
+baseurl: /datagovSSP
+google_analytics_ua: UA-48605964-43
+
+# Site Status
+banner: An prototype website of the United States Government
+banner_alt: US flag signifying that this is a US Federal Government website
+phase: alpha # alpha, beta, live
+
+# SSP Variables
+system: Data.gov
+systemOwner: GSA Technology Transformation Service
+
+# Repos this site is based on or uses including itself
+repos:
+- name: U.S. Web Design Standards
+  description: This site is a fork of the U.S. Web Design Standards
+  url: https://github.com/18F/web-design-standards
+- name: OpenControl
+  description: Based on An Open Schema for Data-Driven System Security Plans
+  url: https://github.com/opencontrol
+- name: Data.gov System Security Plan (SSP)
+  description: Draft of a Data-Driven System Security Plan for the Data.gov System/Services
+  url: https://github.com/gsa/datagovSSP
+
+# Collectins are used as custom Jekyll Pages/Posts
+collections:
+  policies:
+    output: true
+    permalink: /:path/
+  layout-system:
+    output: true
+    permalink: /:path/
+  elements:
+    output: true
+    permalink: /:path/
+  components:
+    output: true
+    permalink: /:path/
+  datasets:
+    output: true
+    permalink: /:path/
+
+# Files for Jekyll to ignore
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE.md
+- CONTRIBUTING.md
+- ".sass-cache"
+- ".ruby-version"
+- vendor
+- node_modules
+
+# Style Variables
+markdown: redcarpet
+highlighter: rouge
+permalink: pretsty
+sass:
+  sass_dir: _scssss

@@ -1,0 +1,155 @@
+
+- role: Security Operations
+  short: SecOps
+  responsiblities:
+  - policy: AC
+    responsiblity: Monitor access to infrastructure and information systems. Review and enforce access controls.
+  - policy: AU
+    responsiblity: Establishment and maintenance of log management framework
+  - policy: CA
+    responsiblity: Responsibilities include following the Risk management framework (RMF) and POA&M management.
+  - policy: CM
+    responsiblity: Reviews configuration settings implemented on the system per established baseline configurations.
+  - policy: IA
+    responsiblity: Monitor and ensure all identity and authentication mechanisms implemented within the system environment meet security requirements
+  - policy: IR
+    responsiblity: Monitor security posture of the information systems and reports any suspicious activities within the network to the appropriates POCs.
+  - policy: PL
+    responsiblity: Ensure documentation of the information systems and network architecture is complete accurate and meeting the security requirements of policies and standards.
+  - policy: RA
+    responsiblity: Perform all risk assessment tasks to meet compliance standards and continuous monitoring of the information systems and enterprise networks.
+  - policy: SI
+    responsiblity: Monitors system integrity and threats to all the information systems and networks and provide assistance to DevOps for Flaw remediation actions.
+
+- name: Development Operations
+  short: DevOps
+  responsiblities:
+  - policy: AC
+    responsiblity: Monitor access to infrastructure and information systems. Review and enforce access controls.
+  - policy: CM
+    responsiblity: Maintains baseline configuration management of information systems and networks for the system.
+  - policy: CP
+    responsiblity: The safety and security of data on network and the equipment used to run the network infrastructure.
+  - policy: IA
+    responsiblity: Implement and ensure the security of identity and authentication for the information systems.
+  - policy: IR
+    responsiblity: The safety and security of data on network and the equipment used to run the network infrastructure.
+  - policy: PL
+    responsiblity: Implement the security controls documented within the system security plans and network architecture.
+  - policy: SA
+    responsiblity: The safety and security of data on network and the equipment used to run the network infrastructure.
+  - policy: SC
+    responsiblity: Ensure the safety and security of data on network and the equipment used to run the network infrastructure.
+  - policy: SI
+    responsiblity: Maintain system integrity and protect all network and application services from potential threats to the information systems.
+
+- role: Disaster Recovery Team
+  short: DR
+  responsiblities:
+  - policy: CP
+    responsiblity: Designated members will implement, test and reconstitute information systems based on defined contingency plans and procedures.
+
+- role: Information Security Office
+  short: ISO
+  responsiblities:
+  - policy: IA
+    responsiblity:  Provide recommendations, guidance on the identity and authentication management within the organization.
+  - policy: PS
+    responsiblity: Monitors adherence to the personnel security policy Ensures that all personnel have undergone background checks and security training.
+
+- role: Incident Response Team
+  short: IR
+  responsiblities:
+  - policy: IR
+    responsiblity: Designated incident response personal will activate the IPR plan and follow the IR procedures.
+
+- role: Program Management Office
+  short: PMO
+  responsiblities:
+  - policy: PS
+    responsiblity: Determines security access requirements for all positions Ensures all personnel are trained in the computer security responsibilities and duties associated with their jobs.
+
+- role: Human Resources
+  short: HR
+  responsiblities:
+  - policy: PS
+    responsiblity: Ensures that all personnel have undergone the appropriate background checks.
+
+- role: Content Owners
+  short: RepoOwners
+  responsiblities:
+  - policy: Governance
+    responsiblity: |
+        In addition to drafting and finalizing policies revisions per Sections 4-5 of the Governance Policy.
+        The Content Owner is responsible for
+        a) Reviewing his or her assigned Corporate Policy documents annually, in conjunction with any significant organizational changes that apply, or more frequently as needed.
+        b) Developing any additional documents required to communicate content changes to employees affected by the policy.
+
+- role: Senior Director
+  short: Director
+  responsiblities:
+  - policy: AC
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: AT
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: AU
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: CA
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: CM
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: CP
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: Goverance
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: IA
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: IR
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: PL
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: PS
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: RA
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: SA
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: SC
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+  - policy: SI
+    responsiblity: Ensuring the Policy is approved, implemented and communicated.
+
+
+- role: Director of Compliance
+  short: ISSO
+  responsiblities:
+  - policy: AC
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: AT
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: AU
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: CA
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: CM
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: CP
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: Goverance
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: IA
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: IR
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: PL
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: PS
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: RA
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: SA
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: SC
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.
+  - policy: SI
+    responsiblity: Owner of the Policy. Ensuring the Policy meets the compliance requirements.

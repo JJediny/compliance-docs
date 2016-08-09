@@ -11,27 +11,39 @@
   </div>
 
   <div class="site-navbar">
-    <a class="menu-btn" href="#">Menu</a>
-    <div class="site-logo" id="logo">
-      <em>
-        <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
-        {{ site.title }}</a>
-      </em>
-    </div>
-  </div>
+      <a class="menu-btn" href="#">Menu</a>
+      <div class="site-logo" id="logo">
+        <em>
+          <a href="/" accesskey="1" title="Home" aria-label="Home">
+            {{ site.name }}</a>
+        </em>
+      </div>
+      <ul class="usa-button-list usa-unstyled-list">
+      <li>
+        <a class="usa-button usa-button-outline-inverse" href="{{ site.repo }}" onclick="ga('send', 'event', 'Viewed on Github', 'Clicked View on Github from inside site');">
+          View on GitHub
+        </a>
+      </li>
+    </ul>
   <nav class="site-nav-secondary js-sticky-nav">
     <ul>
       <li>
-        <a {% if page.category == 'UI components' or page.title == 'UI components' %}class="usa-current"{% endif %} href="/">UI COMPONENTS</a>
+        <a {% if page.category == 'system' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/system/">System Description</a>
       </li>
       <li>
-        <a {% if page.category == 'Getting started' or page.title == 'Getting started' %}class="usa-current"{% endif %} href="/getting-started/">GETTING STARTED</a>
+        <a {% if page.category == 'policy' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/policy/">Policy</a>
       </li>
       <li>
-        <a {% if page.title == 'References' %}class="usa-current"{% endif %} href="/design-principles/">References</a>
+        <a {% if page.title == 'References' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/references/">References</a>
       </li>
       <li>
-        <a {% if page.category == 'About our work' or page.title == 'About our work' %}class="usa-current"{% endif %} href="/about-our-work/">ABOUT OUR WORK</a>
+        <a {% if page.title == 'Training' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/training/">Training</a>
+      </li>
+      <li>
+        <a {% if page.title == 'Codebase' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/codebase/">Codebase</a>
+      </li>
+      <li>
+        <a {% if page.title == 'About' %}class="usa-current"{% endif %} href="{{ site.baseurl }}/about/">About</a>
       </li>
     </ul>
   </nav>

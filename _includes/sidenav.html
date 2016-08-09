@@ -4,19 +4,21 @@
   <nav>
     <ul class="usa-sidenav-list">
       <li>
-        <a href="{{ site.baseurl }}/getting-started/">Getting started</a>
+        <a href="{{ site.baseurl }}/about/">About</a>
       </li>
       <li>
         <ul class="usa-sidenav-sub_list">
+          {% for sections in site.collections.system %}
           <li>
             <a href="{{ site.baseurl }}/"></a>
             <ul class="usa-sidenav-sub_list">
               <li>
-                <a href="{{ site.baseurl }}/visual-style/#typefaces">Typefaces</a>
+                {:toc}
               </li>
             </ul>
           </li>
-        </ul>  
+          {% endfor %}
+        </ul>
       </li>
     </ul>
   </nav>

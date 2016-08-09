@@ -1,0 +1,65 @@
+- section: 1
+  name: Information System - General System Description
+- section: 2
+  name: Information System Categorization
+  subsections:
+  - subSection: 2.1
+    name: Information Types
+  - subSection: 2.2
+    name: Security Objectives Categorization (FIPS 199)
+  - subSection: 2.3
+    name: E-Authentication Determination (E-Auth)
+- section: 3
+  name: Information System Owner
+- section: 4
+  name: Authorizing Official
+- section: 5
+  name: Other Designated Contacts
+- section: 6
+  name: Assignment of Security Responsibility
+- section: 7
+  name: Information System Operational Status
+- section: 8
+  name: Information System Type
+  subsections:
+  - subSection: 8.1
+    name: Cloud Service Model
+  - subSection: 8.2
+    name: Leveraged Provisional Authorization
+- section: 9
+  name: General System Description
+  subsections:
+  - subSection: 9.1
+    name: System Function or Purpose
+  - subSection: 9.2
+    name: Information System Components and Boundaries
+  - subSection: 9.3
+    name: Types of Users
+- section: 10
+  name: System Environment
+  subsections:
+  - subSection: 10.1
+    name: Platform Components
+  - subSection: 10.2
+    name: Tenant Environments
+  - subSection: 10.3
+    name: Hardware Inventory
+  - subSection: 10.4
+    name: Software Inventory
+  - subSection: 10.5
+    name: Network Inventory
+  - subSection: 10.6
+    name: Data Flow
+  - subSection: 10.7
+    name: Ports, Protocols, Services
+- section: 11
+  name: System Interconnections
+- section: 12
+  name: Applicable Laws and Regulations
+- section: 13
+  name: Minimum Security Controls
+  subsections:  
+  - subSection: 13.1
+    name: Infrastructure - Customer Responsible Controls
+  - subSectionn: 13.2
+    name: Platform - Customer Responsible Controls

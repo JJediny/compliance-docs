@@ -3,6 +3,7 @@
 name: Data.gov System Security Plan
 branch: gh-pages
 baseurl: /datagovSSP
+repo: https://github.com/jjediny/compliance-docs
 google_analytics_ua: UA-48605964-43
 
 # Site Status
@@ -28,21 +29,26 @@ repos:
 
 # Collectins are used as custom Jekyll Pages/Posts
 collections:
-  policies:
+  policy:
     output: true
-    permalink: /:path/
-  layout-system:
+    permalink: /policy/:path/
+    values:
+      layout: default
+  general:
     output: true
-    permalink: /:path/
-  elements:
+    permalink: /general/:path/
+    values:
+      layout: default
+  controls:
     output: true
-    permalink: /:path/
+    permalink: /controls/:path/
+    values:
+      layout: default
   components:
     output: true
-    permalink: /:path/
-  datasets:
-    output: true
-    permalink: /:path/
+    permalink: /components/:path/
+    values:
+      layout: default
 
 # Files for Jekyll to ignore
 exclude:
@@ -57,8 +63,8 @@ exclude:
 - node_modules
 
 # Style Variables
-markdown: redcarpet
 highlighter: rouge
-permalink: pretsty
-sass:
-  sass_dir: _scssss
+permalink: pretty
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data", "footnotes"]

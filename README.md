@@ -1,8 +1,8 @@
 # Compliance documentation
 
-This repository documents 18F security policies and procedures, which for example are used by the cloud.gov product team.
+This repository documents 18F security policies and procedures, which for example are used by the {{ site.data.ssp.system }} product team.
 
-For cloud.gov compliance documentation, see: https://github.com/18F/cg-compliance
+For {{ site.data.ssp.system }} compliance documentation, see: https://github.com/18F/cg-compliance
 
 This is a public repository following [18F's Open Source Policy](https://github.com/18F/open-source-policy/blob/master/policy.md). See our [LICENSE.md](LICENSE.md) and [CONTRIBUTING.md](CONTRIBUTING.md) files for additional information.
 

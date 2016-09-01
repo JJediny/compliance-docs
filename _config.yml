@@ -34,9 +34,9 @@ collections:
     permalink: /policy/:path/
     values:
       layout: default
-  general:
+  system:
     output: true
-    permalink: /general/:path/
+    permalink: /system/:path/
     values:
       layout: default
   controls:

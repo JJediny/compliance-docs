@@ -1,0 +1,44 @@
+---
+Group:
+  id:
+  title:
+  description:
+  Value:
+    id:
+    type: number
+    operator: equals
+    interactive: 0
+    title:
+    description:
+    Values:
+    - selector:
+      value:
+  Rule:
+    id:   #This id is used to match a rule to a remediation script, OVAL ref, or Policy reference
+    severity: medium #low, medium, high
+    weight:
+    title:
+    description:
+    warning:
+    Macros: # Tests NOTE logic using xsl to validate results of multiple macros using (xsl: if test, xsl: template match)
+      - type: package # service, partion, sysctl, fileperms, fileowner, filegroupowner, mount, module, audit, sshd, xinetd, chkconfig, yum, iptables, socket, systemd
+        actions:
+          - enable # install, check, disable, enable, desc, syscall, service, remove, socket
+          - check
+        tests:
+        - key: # either a filepath, setting name, option/part
+          value:  # EXAMPLES - 0, 1, 5000 or name match to service/package/setting (auditd, ntpd, crond. audit, firewalld)
+          boolean: # See default and allow below - could use a generic boolean attribute in place?
+          #default: no/yes - sshd test adds a default option
+          #allow: true/false - firwalld type requires an allow attribute
+        rationale:
+        ocil: false #ocil is a specific type of test = true wraps this rule with an ocil xml tag
+    References:
+      oval:   # OVAL vulnerability id
+      cce:    # CCE vulnerablity id
+      nist:   # NIST-800 Control id
+      disa:   # DOD-DSIA STIG id
+      cis:    # Center for Internet Security id
+      ossrg:  #
+      stigid:
+---

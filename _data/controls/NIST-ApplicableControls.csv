@@ -1,0 +1,173 @@
+id,control,Low,Moderate,High
+AC-1,Access Control Policy and Procedures,AC-1,AC-1,AC-1
+AC-2,Account Management,AC-2,AC-2 (1) (2) (3) (4) (5) (7) (9) (10) (12),AC-2 (1) (2) (3) (4) (5) (7) (9) (10) (11) (12) (13)
+AC-3,Access Enforcement,AC-3,AC-3,AC-3
+AC-4,Information Flow Enforcement,NA,AC-4 (21),AC-4 (8) (21)
+AC-5,Separation of Duties,NA,AC-5,AC-5
+AC-6,Least Privilege,NA,AC-6 (1) (2) (5) (9) (10) ,AC-6 (1) (2) (3) (5) (7) (8) (9) (10)
+AC-7,Unsuccessful Logon Attempts,AC-7,AC-7,AC-7 (2)
+AC-8,System Use Notification,AC-8,AC-8,AC-8
+AC-10,Concurrent Session Control,NA,AC-10,AC-10
+AC-11,Session Lock,NA,AC-11 (1),AC-11 (1)
+AC-12,Session Termination,NA,AC-12,AC-12 (1)
+AC-14,Permitted Actions Without Identification or Authentication,AC-14,AC-14,AC-14
+AC-17,Remote Access,AC-17,AC-17 (1) (2) (3) (4) (9),AC-17 (1) (2) (3) (4) (9)
+AC-18,Wireless Access,AC-18,AC-18 (1),AC-18 (1) (3) (4) (5)
+AC-19,Access Control For Mobile Devices,AC-19,AC-19 (5),AC-19 (5)
+AC-20,Use of External Information Systems,AC-20,AC-20 (1) (2),AC-20 (1) (2)
+AC-21,Information Sharing,NA,AC-21,AC-21
+AC-22,Publicly Accessible Content,AC-22,AC-22,AC-22
+AT-1,Security Awareness and Training Policy and Procedures,AT-1,AT-1,AT-1
+AT-2,Security Awareness Training,AT-2,AT-2 (2),AT-2 (2)
+AT-3,Role-Based Security Training,AT-3,AT-3 ,AT-3 (3) (4)
+AT-4,Security Training Records,AT-4,AT-4,AT-4
+AU-1,Audit and Accountability Policy and Procedures,AU-1,AU-1,AU-1
+AU-2,Audit Events,AU-2,AU-2 (3),AU-2 (3)
+AU-3,Content of Audit Records,AU-3,AU-3 (1),AU-3 (1) (2)
+AU-4,Audit Storage Capacity,AU-4,AU-4,AU-4
+AU-5,Response to Audit Processing Failures,AU-5,AU-5,AU-5 (1) (2)
+AU-6,"Audit Review, Analysis and Reporting",AU-6,AU-6 (1) (3),AU-6 (1) (3) (4) (5) (6) (7) (10)
+AU-7,Audit Reduction and Report Generation,NA,AU-7 (1),AU-7 (1)
+AU-8,Time Stamps,AU-8,AU-8 (1),AU-8 (1)
+AU-9,Protection of Audit Information,AU-9,AU-9 (2) (4),AU-9 (2) (3) (4)
+AU-10,Non-repudiation,NA,NA,AU-10
+AU-11,Audit Record Retention,AU-11,AU-11,AU-11
+AU-12,Audit Generation,AU-12,AU-12,AU-12 (1) (3)
+CA-1,Security Assessment and Authorization Policies and Procedures,CA-1,CA-1,CA-1
+CA-2,Security Assessments,CA-2 (1),CA-2 (1) (2) (3),CA-2 (1) (2) (3)
+CA-3,System Interconnections,CA-3,CA-3 (3) (5),CA-3 (3) (5)
+CA-5,Plan of Action and Milestones,CA-5,CA-5,CA-5
+CA-6,Security Authorization,CA-6,CA-6,CA-6
+CA-7,Continuous Monitoring,CA-7,CA-7 (1),CA-7 (1) (3)
+CA-8,Penetration Testing,NA,CA-8 (1),CA-8 (1)
+CA-9,Internal System Connections,CA-9,CA-9,CA-9
+CM-1,Configuration Management Policy and Procedures,CM-1,CM-1,CM-1
+CM-2,Baseline Configuration,CM-2,CM-2 (1) (2) (3) (7),CM-2 (1) (2) (3) (7)
+CM-3,Configuration Change Control,NA,CM-3 ,CM-3 (1) (2) (4) (6)
+CM-4,Security Impact Analysis,CM-4,CM-4,CM-4 (1)
+CM-5,Access Restrictions For Change,NA,CM-5 (1) (3) (5),CM-5 (1) (2) (3) (5)
+CM-6,Configuration Settings,CM-6,CM-6 (1),CM-6 (1) (2)
+CM-7,Least Functionality,CM-7,CM-7 (1) (2) (5),CM-7 (1) (2) (5)
+CM-8,Information System Component Inventory,CM-8,CM-8 (1) (3) (5),CM-8 (1) (2) (3) (4) (5)
+CM-9,Configuration Management Plan,NA,CM-9,CM-9
+CM-10,Software Usage Restrictions,CM-10,CM-10 (1),CM-10 (1)
+CM-11,User-Installed Software,CM-11,CM-11,CM-11 (1)
+CP-1,Contingency Planning Policy and Procedures,CP-1,CP-1,CP-1
+CP-2,Contingency Plan,CP-2,CP-2 (1) (2) (3) (8),CP-2 (1) (2) (3) (4) (5) (8)
+CP-3,Contingency Training,CP-3,CP-3,CP-3 (1)
+CP-4,Contingency Plan Testing,CP-4,CP-4 (1),CP-4 (1) (2)
+CP-6,Alternate Storage Site,NA,CP-6 (1) (3),CP-6 (1) (2) (3)
+CP-7,Alternate Processing Site,NA,CP-7 (1) (2) (3),CP-7 (1) (2) (3) (4)
+CP-8,Telecommunications Services,NA,CP-8 (1) (2),CP-8 (1) (2) (3) (4)
+CP-9,Information System Backup,CP-9,CP-9 (1) (3),CP-9 (1) (2) (3) (5)
+CP-10,Information System Recovery and Reconstitution,CP-10,CP-10 (2),CP-10 (2) (4)
+IA-1,Identification and Authentication Policy and Procedures,IA-1,IA-1,IA-1
+IA-2,Identification and Authentication (Organizational Users),IA-2 (1) (12),IA-2 (1) (2) (3) (5) (8) (11) (12),IA-2 (1) (2) (3) (4) (5) (8) (9) (11) (12)
+IA-3,Device Identification and Authentication,NA,IA-3,IA-3
+IA-4,Identifier Management,IA-4,IA-4 (4),IA-4 (4)
+IA-5,Authenticator Management,IA-5 (1) (11),IA-5 (1) (2) (3) (4) (6) (7) (11),IA-5 (1) (2) (3) (4) (6) (7) (8) (11) (13)
+IA-6,Authenticator Feedback,IA-6,IA-6,IA-6
+IA-7,Cryptographic Module Authentication,IA-7,IA-7,IA-7
+IA-8,Identification and Authentication (Non-Organizational Users),IA-8 (1) (2) (3) (4),IA-8 (1) (2) (3) (4),IA-8 (1) (2) (3) (4)
+IR-1,Incident Response Policy and Procedures,IR-1,IR-1,IR-1
+IR-2,Incident Response Training,IR-2,IR-2,IR-2 (1) (2)
+IR-3,Incident Response Testing,NA,IR-3 (2),IR-3 (2)
+IR-4,Incident Handling,IR-4,IR-4 (1),IR-4 (1) (2) (3) (4) (6) (8)
+IR-5,Incident Monitoring,IR-5,IR-5,IR-5 (1) 
+IR-6,Incident Reporting,IR-6,IR-6 (1),IR-6 (1) 
+IR-7,Incident Response Assistance,IR-7,IR-7 (1) (2),IR-7 (1) (2)
+IR-8,Incident Response Plan,IR-8,IR-8,IR-8
+IR-9,Information Spillage Response,NA,IR-9 (1) (2) (3) (4),IR-9 (1) (2) (3) (4)
+MA-1,System Maintenance Policy and Procedures,MA-1,MA-1,MA-1
+MA-2,Controlled Maintenance,MA-2,MA-2,MA-2 (2)
+MA-3,Maintenance Tools,NA,MA-3 (1) (2) (3),MA-3 (1) (2) (3)
+MA-4,Nonlocal Maintenance,MA-4,MA-4 (2),MA-4 (2) (3) (6)
+MA-5,Maintenance Personnel,MA-5,MA-5 (1),MA-5 (1)
+MA-6,Timely Maintenance,NA,MA-6,MA-6
+MP-1,Media Protection Policy and Procedures,MP-1,MP-1,MP-1
+MP-2,Media Access,MP-2,MP-2,MP-2
+MP-3,Media Marking,NA,MP-3,MP-3
+MP-4,Media Storage,NA,MP-4,MP-4
+MP-5,Media Transport,NA,MP-5 (4),MP-5 (4)
+MP-6,Media Sanitization,MP-6,MP-6 (2),MP-6 (1) (2) (3)
+MP-7,Media Use,MP-7,MP-7 (1),MP-7 (1)
+PE-1,Physical and Environmental Protection Policy and Procedures,PE-1,PE-1,PE-1
+PE-2,Physical Access Authorizations,PE-2,PE-2,PE-2
+PE-3,Physical Access Control,PE-3,PE-3,PE-3 (1)
+PE-4,Access Control For Transmission Medium,NA,PE-4,PE-4
+PE-5,Access Control For Output Devices,NA,PE-5,PE-5
+PE-6,Monitoring Physical Access,PE-6,PE-6 (1),PE-6 (1) (4)
+PE-8,Visitor Access Records,PE-8,PE-8,PE-8 (1)
+PE-9,Power Equipment and Cabling,NA,PE-9,PE-9
+PE-10,Emergency Shutoff,NA,PE-10,PE-10
+PE-11,Emergency Power,NA,PE-11,PE-11 (1)
+PE-12,Emergency Lighting,PE-12,PE-12,PE-12
+PE-13,Fire Protection,PE-13,PE-13 (2) (3),PE-13 (1) (2) (3)
+PE-14,Temperature and Humidity Controls,PE-14,PE-14 (2),PE-14 (2)
+PE-15,Water Damage Protection,PE-15,PE-15,PE-15 (1)
+PE-16,Delivery and Removal,PE-16,PE-16,PE-16
+PE-17,Alternate Work Site,NA,PE-17,PE-17
+PE-18,Location of Information System Components,NA,NA,PE-18
+PL-1,Security Planning Policy and Procedures,PL-1,PL-1,PL-1
+PL-2,System Security Plan,PL-2,PL-2 (3),PL-2 (3)
+PL-4,Rules of Behavior,PL-4,PL-4 (1),PL-4 (1)
+PL-8,Information Security Architecture,NA,PL-8,PL-8
+PS-1,Personnel Security Policy and Procedures,PS-1,PS-1,PS-1
+PS-2,Position Risk Designation,PS-2,PS-2,PS-2
+PS-3,Personnel Screening,PS-3,PS-3 (3),PS-3 (3)
+PS-4,Personnel Termination,PS-4,PS-4,PS-4 (2)
+PS-5,Personnel Transfer,PS-5,PS-5,PS-5
+PS-6,Access Agreements,PS-6,PS-6,PS-6
+PS-7,Third-Party Personnel Security,PS-7,PS-7,PS-7
+PS-8,Personnel Sanctions,PS-8,PS-8,PS-8
+RA-1,Risk Assessment Policy and Procedures,RA-1,RA-1,RA-1
+RA-2,Security Categorization,RA-2,RA-2,RA-2
+RA-3,Risk Assessment,RA-3,RA-3,RA-3
+RA-5,Vulnerability Scanning,RA-5,RA-5 (1) (2) (3) (5) (6) (8),RA-5 (1) (2) (3) (4) (5) (6) (8) (10)
+SA-1,System and Services Acquisition Policy and Procedures,SA-1,SA-1,SA-1
+SA-2,Allocation of Resources,SA-2,SA-2,SA-2
+SA-3,System Development Life Cycle,SA-3,SA-3,SA-3
+SA-4,Acquisition Process,SA-4 (10),SA-4 (1) (2) (8) (9) (10),SA-4 (1) (2) (8) (9) (10)
+SA-5,Information System Documentation,SA-5,SA-5,SA-5
+SA-8,Security Engineering Principles,NA,SA-8,SA-8
+SA-9,External Information System Services,SA-9,SA-9 (1) (2) (4) (5),SA-9 (1) (2) (4) (5)
+SA-10,Developer Configuration Management,NA,SA-10 (1),SA-10 (1)
+SA-11,Developer Security Testing and Evaluation,NA,SA-11 (1) (2) (8),SA-11 (1) (2) (8)
+SA-12,Supply Chain Protection,NA,NA,SA-12
+SA-15,"Development Process, Standards and Tools",NA,NA,SA-15
+SA-16,Developer-Provided Training,NA,NA,SA-16
+SA-17,Developer Security Architecture and Design,NA,NA,SA-17
+SC-1,System and Communications Protection Policy and Procedures,SC-1,SC-1,SC-1
+SC-2,Application Partitioning,NA,SC-2,SC-2
+SC-3,Security Function Isolation,NA,NA,SC-3
+SC-4,Information In Shared Resources,NA,SC-4,SC-4
+SC-5,Denial of Service Protection,SC-5,SC-5,SC-5
+SC-6,Resource Availability,NA,SC-6,SC-6
+SC-7,Boundary Protection,SC-7,SC-7 (3) (4) (5) (7) (8) (12) (13) (18),SC-7 (3) (4) (5) (7) (8) (10) (12) (13) (18) (20) (21)
+SC-8,Transmission Confidentiality and Integrity,NA,SC-8 (1),SC-8 (1)
+SC-10,Network Disconnect,NA,SC-10,SC-10
+SC-12,Cryptographic Key Establishment and Management,SC-12,SC-12 (2) (3),SC-12 (1) (2) (3)
+SC-13,Cryptographic Protection,SC-13,SC-13,SC-13
+SC-15,Collaborative Computing Devices,SC-15,SC-15,SC-15
+SC-17,Public Key Infrastructure Certificates,NA,SC-17,SC-17
+SC-18,Mobile Code,NA,SC-18,SC-18
+SC-19,Voice Over Internet Protocol,NA,SC-19,SC-19
+SC-20,Secure Name / Address Resolution Service (Authoritative Source),SC-20,SC-20,SC-20
+SC-21,Secure Name / Address Resolution Service (Recursive or Caching Resolver),SC-21,SC-21,SC-21
+SC-22,Architecture and Provisioning for Name / Address Resolution Service,SC-22,SC-22,SC-22
+SC-23,Session Authenticity,NA,SC-23,SC-23 (1)
+SC-24,Fail in Known State,NA,NA,SC-24
+SC-28,Protection of Information At Rest,NA,SC-28 (1),SC-28 (1)
+SC-39,Process Isolation,SC-39,SC-39,SC-39
+SI-1,System and Information Integrity Policy and Procedures,SI-1,SI-1,SI-1
+SI-2,Flaw Remediation,SI-2,SI-2 (2) (3),SI-2 (1) (2) (3)
+SI-3,Malicious Code Protection,SI-3,SI-3 (1) (2) (7),SI-3 (1) (2) (7)
+SI-4,Information System Monitoring,SI-4,SI-4 (1) (2) (4) (5) (14) (16) (23),SI-4 (1) (2) (4) (5) (11) (14) (16) (18) (19) (20) (22) (23) (24)
+SI-5,"Security Alerts, Advisories and Directives",SI-5,SI-5,SI-5 (1)
+SI-6,Security Function Verification,NA,SI-6,SI-6
+SI-7,"Software, Firmware and Information Integrity",NA,SI-7 (1) (7),SI-7 (1) (2) (5) (7) (14)
+SI-8,Spam Protection,NA,SI-8 (1) (2),SI-8 (1) (2)
+SI-10,Information Input Validation,NA,SI-10,SI-10
+SI-11,Error Handling,NA,SI-11,SI-11
+SI-12,Information Handling and Retention,SI-12,SI-12,SI-12
+SI-16,Memory Protection,NA,SI-16,SI-16

@@ -1,0 +1,1033 @@
+---
+-
+    id: AC-1
+    control: Access Control Policy and Procedures
+    Low: AC-1
+    Moderate: AC-1
+    High: AC-1
+-
+    id: AC-2
+    control: Account Management
+    Low: AC-2
+    Moderate: AC-2 (1) (2) (3) (4) (5) (7) (9) (10) (12)
+    High: AC-2 (1) (2) (3) (4) (5) (7) (9) (10) (11) (12) (13)
+-
+    id: AC-3
+    control: Access Enforcement
+    Low: AC-3
+    Moderate: AC-3
+    High: AC-3
+-
+    id: AC-4
+    control: Information Flow Enforcement
+    Low: NA
+    Moderate: AC-4 (21)
+    High: AC-4 (8) (21)
+-
+    id: AC-5
+    control: Separation of Duties
+    Low: NA
+    Moderate: AC-5
+    High: AC-5
+-
+    id: AC-6
+    control: Least Privilege
+    Low: NA
+    Moderate: AC-6 (1) (2) (5) (9) (10)
+    High: AC-6 (1) (2) (3) (5) (7) (8) (9) (10)
+-
+    id: AC-7
+    control: Unsuccessful Logon Attempts
+    Low: AC-7
+    Moderate: AC-7
+    High: AC-7 (2)
+-
+    id: AC-8
+    control: System Use Notification
+    Low: AC-8
+    Moderate: AC-8
+    High: AC-8
+-
+    id: AC-10
+    control: Concurrent Session Control
+    Low: NA
+    Moderate: AC-10
+    High: AC-10
+-
+    id: AC-11
+    control: Session Lock
+    Low: NA
+    Moderate: AC-11 (1)
+    High: AC-11 (1)
+-
+    id: AC-12
+    control: Session Termination
+    Low: NA
+    Moderate: AC-12
+    High: AC-12 (1)
+-
+    id: AC-14
+    control: Permitted Actions Without Identification or Authentication
+    Low: AC-14
+    Moderate: AC-14
+    High: AC-14
+-
+    id: AC-17
+    control: Remote Access
+    Low: AC-17
+    Moderate: AC-17 (1) (2) (3) (4) (9)
+    High: AC-17 (1) (2) (3) (4) (9)
+-
+    id: AC-18
+    control: Wireless Access
+    Low: AC-18
+    Moderate: AC-18 (1)
+    High: AC-18 (1) (3) (4) (5)
+-
+    id: AC-19
+    control: Access Control For Mobile Devices
+    Low: AC-19
+    Moderate: AC-19 (5)
+    High: AC-19 (5)
+-
+    id: AC-20
+    control: Use of External Information Systems
+    Low: AC-20
+    Moderate: AC-20 (1) (2)
+    High: AC-20 (1) (2)
+-
+    id: AC-21
+    control: Information Sharing
+    Low: NA
+    Moderate: AC-21
+    High: AC-21
+-
+    id: AC-22
+    control: Publicly Accessible Content
+    Low: AC-22
+    Moderate: AC-22
+    High: AC-22
+-
+    id: AT-1
+    control: Security Awareness and Training Policy and Procedures
+    Low: AT-1
+    Moderate: AT-1
+    High: AT-1
+-
+    id: AT-2
+    control: Security Awareness Training
+    Low: AT-2
+    Moderate: AT-2 (2)
+    High: AT-2 (2)
+-
+    id: AT-3
+    control: Role-Based Security Training
+    Low: AT-3
+    Moderate: AT-3
+    High: AT-3 (3) (4)
+-
+    id: AT-4
+    control: Security Training Records
+    Low: AT-4
+    Moderate: AT-4
+    High: AT-4
+-
+    id: AU-1
+    control: Audit and Accountability Policy and Procedures
+    Low: AU-1
+    Moderate: AU-1
+    High: AU-1
+-
+    id: AU-2
+    control: Audit Events
+    Low: AU-2
+    Moderate: AU-2 (3)
+    High: AU-2 (3)
+-
+    id: AU-3
+    control: Content of Audit Records
+    Low: AU-3
+    Moderate: AU-3 (1)
+    High: AU-3 (1) (2)
+-
+    id: AU-4
+    control: Audit Storage Capacity
+    Low: AU-4
+    Moderate: AU-4
+    High: AU-4
+-
+    id: AU-5
+    control: Response to Audit Processing Failures
+    Low: AU-5
+    Moderate: AU-5
+    High: AU-5 (1) (2)
+-
+    id: AU-6
+    control: Audit Review, Analysis and Reporting
+    Low: AU-6
+    Moderate: AU-6 (1) (3)
+    High: AU-6 (1) (3) (4) (5) (6) (7) (10)
+-
+    id: AU-7
+    control: Audit Reduction and Report Generation
+    Low: NA
+    Moderate: AU-7 (1)
+    High: AU-7 (1)
+-
+    id: AU-8
+    control: Time Stamps
+    Low: AU-8
+    Moderate: AU-8 (1)
+    High: AU-8 (1)
+-
+    id: AU-9
+    control: Protection of Audit Information
+    Low: AU-9
+    Moderate: AU-9 (2) (4)
+    High: AU-9 (2) (3) (4)
+-
+    id: AU-10
+    control: Non-repudiation
+    Low: NA
+    Moderate: NA
+    High: AU-10
+-
+    id: AU-11
+    control: Audit Record Retention
+    Low: AU-11
+    Moderate: AU-11
+    High: AU-11
+-
+    id: AU-12
+    control: Audit Generation
+    Low: AU-12
+    Moderate: AU-12
+    High: AU-12 (1) (3)
+-
+    id: CA-1
+    control: Security Assessment and Authorization Policies and Procedures
+    Low: CA-1
+    Moderate: CA-1
+    High: CA-1
+-
+    id: CA-2
+    control: Security Assessments
+    Low: CA-2 (1)
+    Moderate: CA-2 (1) (2) (3)
+    High: CA-2 (1) (2) (3)
+-
+    id: CA-3
+    control: System Interconnections
+    Low: CA-3
+    Moderate: CA-3 (3) (5)
+    High: CA-3 (3) (5)
+-
+    id: CA-5
+    control: Plan of Action and Milestones
+    Low: CA-5
+    Moderate: CA-5
+    High: CA-5
+-
+    id: CA-6
+    control: Security Authorization
+    Low: CA-6
+    Moderate: CA-6
+    High: CA-6
+-
+    id: CA-7
+    control: Continuous Monitoring
+    Low: CA-7
+    Moderate: CA-7 (1)
+    High: CA-7 (1) (3)
+-
+    id: CA-8
+    control: Penetration Testing
+    Low: NA
+    Moderate: CA-8 (1)
+    High: CA-8 (1)
+-
+    id: CA-9
+    control: Internal System Connections
+    Low: CA-9
+    Moderate: CA-9
+    High: CA-9
+-
+    id: CM-1
+    control: Configuration Management Policy and Procedures
+    Low: CM-1
+    Moderate: CM-1
+    High: CM-1
+-
+    id: CM-2
+    control: Baseline Configuration
+    Low: CM-2
+    Moderate: CM-2 (1) (2) (3) (7)
+    High: CM-2 (1) (2) (3) (7)
+-
+    id: CM-3
+    control: Configuration Change Control
+    Low: NA
+    Moderate: CM-3
+    High: CM-3 (1) (2) (4) (6)
+-
+    id: CM-4
+    control: Security Impact Analysis
+    Low: CM-4
+    Moderate: CM-4
+    High: CM-4 (1)
+-
+    id: CM-5
+    control: Access Restrictions For Change
+    Low: NA
+    Moderate: CM-5 (1) (3) (5)
+    High: CM-5 (1) (2) (3) (5)
+-
+    id: CM-6
+    control: Configuration Settings
+    Low: CM-6
+    Moderate: CM-6 (1)
+    High: CM-6 (1) (2)
+-
+    id: CM-7
+    control: Least Functionality
+    Low: CM-7
+    Moderate: CM-7 (1) (2) (5)
+    High: CM-7 (1) (2) (5)
+-
+    id: CM-8
+    control: Information System Component Inventory
+    Low: CM-8
+    Moderate: CM-8 (1) (3) (5)
+    High: CM-8 (1) (2) (3) (4) (5)
+-
+    id: CM-9
+    control: Configuration Management Plan
+    Low: NA
+    Moderate: CM-9
+    High: CM-9
+-
+    id: CM-10
+    control: Software Usage Restrictions
+    Low: CM-10
+    Moderate: CM-10 (1)
+    High: CM-10 (1)
+-
+    id: CM-11
+    control: User-Installed Software
+    Low: CM-11
+    Moderate: CM-11
+    High: CM-11 (1)
+-
+    id: CP-1
+    control: Contingency Planning Policy and Procedures
+    Low: CP-1
+    Moderate: CP-1
+    High: CP-1
+-
+    id: CP-2
+    control: Contingency Plan
+    Low: CP-2
+    Moderate: CP-2 (1) (2) (3) (8)
+    High: CP-2 (1) (2) (3) (4) (5) (8)
+-
+    id: CP-3
+    control: Contingency Training
+    Low: CP-3
+    Moderate: CP-3
+    High: CP-3 (1)
+-
+    id: CP-4
+    control: Contingency Plan Testing
+    Low: CP-4
+    Moderate: CP-4 (1)
+    High: CP-4 (1) (2)
+-
+    id: CP-6
+    control: Alternate Storage Site
+    Low: NA
+    Moderate: CP-6 (1) (3)
+    High: CP-6 (1) (2) (3)
+-
+    id: CP-7
+    control: Alternate Processing Site
+    Low: NA
+    Moderate: CP-7 (1) (2) (3)
+    High: CP-7 (1) (2) (3) (4)
+-
+    id: CP-8
+    control: Telecommunications Services
+    Low: NA
+    Moderate: CP-8 (1) (2)
+    High: CP-8 (1) (2) (3) (4)
+-
+    id: CP-9
+    control: Information System Backup
+    Low: CP-9
+    Moderate: CP-9 (1) (3)
+    High: CP-9 (1) (2) (3) (5)
+-
+    id: CP-10
+    control: Information System Recovery and Reconstitution
+    Low: CP-10
+    Moderate: CP-10 (2)
+    High: CP-10 (2) (4)
+-
+    id: IA-1
+    control: Identification and Authentication Policy and Procedures
+    Low: IA-1
+    Moderate: IA-1
+    High: IA-1
+-
+    id: IA-2
+    control: Identification and Authentication (Organizational Users)
+    Low: IA-2 (1) (12)
+    Moderate: IA-2 (1) (2) (3) (5) (8) (11) (12)
+    High: IA-2 (1) (2) (3) (4) (5) (8) (9) (11) (12)
+-
+    id: IA-3
+    control: Device Identification and Authentication
+    Low: NA
+    Moderate: IA-3
+    High: IA-3
+-
+    id: IA-4
+    control: Identifier Management
+    Low: IA-4
+    Moderate: IA-4 (4)
+    High: IA-4 (4)
+-
+    id: IA-5
+    control: Authenticator Management
+    Low: IA-5 (1) (11)
+    Moderate: IA-5 (1) (2) (3) (4) (6) (7) (11)
+    High: IA-5 (1) (2) (3) (4) (6) (7) (8) (11) (13)
+-
+    id: IA-6
+    control: Authenticator Feedback
+    Low: IA-6
+    Moderate: IA-6
+    High: IA-6
+-
+    id: IA-7
+    control: Cryptographic Module Authentication
+    Low: IA-7
+    Moderate: IA-7
+    High: IA-7
+-
+    id: IA-8
+    control: Identification and Authentication (Non-Organizational Users)
+    Low: IA-8 (1) (2) (3) (4)
+    Moderate: IA-8 (1) (2) (3) (4)
+    High: IA-8 (1) (2) (3) (4)
+-
+    id: IR-1
+    control: Incident Response Policy and Procedures
+    Low: IR-1
+    Moderate: IR-1
+    High: IR-1
+-
+    id: IR-2
+    control: Incident Response Training
+    Low: IR-2
+    Moderate: IR-2
+    High: IR-2 (1) (2)
+-
+    id: IR-3
+    control: Incident Response Testing
+    Low: NA
+    Moderate: IR-3 (2)
+    High: IR-3 (2)
+-
+    id: IR-4
+    control: Incident Handling
+    Low: IR-4
+    Moderate: IR-4 (1)
+    High: IR-4 (1) (2) (3) (4) (6) (8)
+-
+    id: IR-5
+    control: Incident Monitoring
+    Low: IR-5
+    Moderate: IR-5
+    High: IR-5 (1)
+-
+    id: IR-6
+    control: Incident Reporting
+    Low: IR-6
+    Moderate: IR-6 (1)
+    High: IR-6 (1)
+-
+    id: IR-7
+    control: Incident Response Assistance
+    Low: IR-7
+    Moderate: IR-7 (1) (2)
+    High: IR-7 (1) (2)
+-
+    id: IR-8
+    control: Incident Response Plan
+    Low: IR-8
+    Moderate: IR-8
+    High: IR-8
+-
+    id: IR-9
+    control: Information Spillage Response
+    Low: NA
+    Moderate: IR-9 (1) (2) (3) (4)
+    High: IR-9 (1) (2) (3) (4)
+-
+    id: MA-1
+    control: System Maintenance Policy and Procedures
+    Low: MA-1
+    Moderate: MA-1
+    High: MA-1
+-
+    id: MA-2
+    control: Controlled Maintenance
+    Low: MA-2
+    Moderate: MA-2
+    High: MA-2 (2)
+-
+    id: MA-3
+    control: Maintenance Tools
+    Low: NA
+    Moderate: MA-3 (1) (2) (3)
+    High: MA-3 (1) (2) (3)
+-
+    id: MA-4
+    control: Nonlocal Maintenance
+    Low: MA-4
+    Moderate: MA-4 (2)
+    High: MA-4 (2) (3) (6)
+-
+    id: MA-5
+    control: Maintenance Personnel
+    Low: MA-5
+    Moderate: MA-5 (1)
+    High: MA-5 (1)
+-
+    id: MA-6
+    control: Timely Maintenance
+    Low: NA
+    Moderate: MA-6
+    High: MA-6
+-
+    id: MP-1
+    control: Media Protection Policy and Procedures
+    Low: MP-1
+    Moderate: MP-1
+    High: MP-1
+-
+    id: MP-2
+    control: Media Access
+    Low: MP-2
+    Moderate: MP-2
+    High: MP-2
+-
+    id: MP-3
+    control: Media Marking
+    Low: NA
+    Moderate: MP-3
+    High: MP-3
+-
+    id: MP-4
+    control: Media Storage
+    Low: NA
+    Moderate: MP-4
+    High: MP-4
+-
+    id: MP-5
+    control: Media Transport
+    Low: NA
+    Moderate: MP-5 (4)
+    High: MP-5 (4)
+-
+    id: MP-6
+    control: Media Sanitization
+    Low: MP-6
+    Moderate: MP-6 (2)
+    High: MP-6 (1) (2) (3)
+-
+    id: MP-7
+    control: Media Use
+    Low: MP-7
+    Moderate: MP-7 (1)
+    High: MP-7 (1)
+-
+    id: PE-1
+    control: Physical and Environmental Protection Policy and Procedures
+    Low: PE-1
+    Moderate: PE-1
+    High: PE-1
+-
+    id: PE-2
+    control: Physical Access Authorizations
+    Low: PE-2
+    Moderate: PE-2
+    High: PE-2
+-
+    id: PE-3
+    control: Physical Access Control
+    Low: PE-3
+    Moderate: PE-3
+    High: PE-3 (1)
+-
+    id: PE-4
+    control: Access Control For Transmission Medium
+    Low: NA
+    Moderate: PE-4
+    High: PE-4
+-
+    id: PE-5
+    control: Access Control For Output Devices
+    Low: NA
+    Moderate: PE-5
+    High: PE-5
+-
+    id: PE-6
+    control: Monitoring Physical Access
+    Low: PE-6
+    Moderate: PE-6 (1)
+    High: PE-6 (1) (4)
+-
+    id: PE-8
+    control: Visitor Access Records
+    Low: PE-8
+    Moderate: PE-8
+    High: PE-8 (1)
+-
+    id: PE-9
+    control: Power Equipment and Cabling
+    Low: NA
+    Moderate: PE-9
+    High: PE-9
+-
+    id: PE-10
+    control: Emergency Shutoff
+    Low: NA
+    Moderate: PE-10
+    High: PE-10
+-
+    id: PE-11
+    control: Emergency Power
+    Low: NA
+    Moderate: PE-11
+    High: PE-11 (1)
+-
+    id: PE-12
+    control: Emergency Lighting
+    Low: PE-12
+    Moderate: PE-12
+    High: PE-12
+-
+    id: PE-13
+    control: Fire Protection
+    Low: PE-13
+    Moderate: PE-13 (2) (3)
+    High: PE-13 (1) (2) (3)
+-
+    id: PE-14
+    control: Temperature and Humidity Controls
+    Low: PE-14
+    Moderate: PE-14 (2)
+    High: PE-14 (2)
+-
+    id: PE-15
+    control: Water Damage Protection
+    Low: PE-15
+    Moderate: PE-15
+    High: PE-15 (1)
+-
+    id: PE-16
+    control: Delivery and Removal
+    Low: PE-16
+    Moderate: PE-16
+    High: PE-16
+-
+    id: PE-17
+    control: Alternate Work Site
+    Low: NA
+    Moderate: PE-17
+    High: PE-17
+-
+    id: PE-18
+    control: Location of Information System Components
+    Low: NA
+    Moderate: NA
+    High: PE-18
+-
+    id: PL-1
+    control: Security Planning Policy and Procedures
+    Low: PL-1
+    Moderate: PL-1
+    High: PL-1
+-
+    id: PL-2
+    control: System Security Plan
+    Low: PL-2
+    Moderate: PL-2 (3)
+    High: PL-2 (3)
+-
+    id: PL-4
+    control: Rules of Behavior
+    Low: PL-4
+    Moderate: PL-4 (1)
+    High: PL-4 (1)
+-
+    id: PL-8
+    control: Information Security Architecture
+    Low: NA
+    Moderate: PL-8
+    High: PL-8
+-
+    id: PS-1
+    control: Personnel Security Policy and Procedures
+    Low: PS-1
+    Moderate: PS-1
+    High: PS-1
+-
+    id: PS-2
+    control: Position Risk Designation
+    Low: PS-2
+    Moderate: PS-2
+    High: PS-2
+-
+    id: PS-3
+    control: Personnel Screening
+    Low: PS-3
+    Moderate: PS-3 (3)
+    High: PS-3 (3)
+-
+    id: PS-4
+    control: Personnel Termination
+    Low: PS-4
+    Moderate: PS-4
+    High: PS-4 (2)
+-
+    id: PS-5
+    control: Personnel Transfer
+    Low: PS-5
+    Moderate: PS-5
+    High: PS-5
+-
+    id: PS-6
+    control: Access Agreements
+    Low: PS-6
+    Moderate: PS-6
+    High: PS-6
+-
+    id: PS-7
+    control: Third-Party Personnel Security
+    Low: PS-7
+    Moderate: PS-7
+    High: PS-7
+-
+    id: PS-8
+    control: Personnel Sanctions
+    Low: PS-8
+    Moderate: PS-8
+    High: PS-8
+-
+    id: RA-1
+    control: Risk Assessment Policy and Procedures
+    Low: RA-1
+    Moderate: RA-1
+    High: RA-1
+-
+    id: RA-2
+    control: Security Categorization
+    Low: RA-2
+    Moderate: RA-2
+    High: RA-2
+-
+    id: RA-3
+    control: Risk Assessment
+    Low: RA-3
+    Moderate: RA-3
+    High: RA-3
+-
+    id: RA-5
+    control: Vulnerability Scanning
+    Low: RA-5
+    Moderate: RA-5 (1) (2) (3) (5) (6) (8)
+    High: RA-5 (1) (2) (3) (4) (5) (6) (8) (10)
+-
+    id: SA-1
+    control: System and Services Acquisition Policy and Procedures
+    Low: SA-1
+    Moderate: SA-1
+    High: SA-1
+-
+    id: SA-2
+    control: Allocation of Resources
+    Low: SA-2
+    Moderate: SA-2
+    High: SA-2
+-
+    id: SA-3
+    control: System Development Life Cycle
+    Low: SA-3
+    Moderate: SA-3
+    High: SA-3
+-
+    id: SA-4
+    control: Acquisition Process
+    Low: SA-4 (10)
+    Moderate: SA-4 (1) (2) (8) (9) (10)
+    High: SA-4 (1) (2) (8) (9) (10)
+-
+    id: SA-5
+    control: Information System Documentation
+    Low: SA-5
+    Moderate: SA-5
+    High: SA-5
+-
+    id: SA-8
+    control: Security Engineering Principles
+    Low: NA
+    Moderate: SA-8
+    High: SA-8
+-
+    id: SA-9
+    control: External Information System Services
+    Low: SA-9
+    Moderate: SA-9 (1) (2) (4) (5)
+    High: SA-9 (1) (2) (4) (5)
+-
+    id: SA-10
+    control: Developer Configuration Management
+    Low: NA
+    Moderate: SA-10 (1)
+    High: SA-10 (1)
+-
+    id: SA-11
+    control: Developer Security Testing and Evaluation
+    Low: NA
+    Moderate: SA-11 (1) (2) (8)
+    High: SA-11 (1) (2) (8)
+-
+    id: SA-12
+    control: Supply Chain Protection
+    Low: NA
+    Moderate: NA
+    High: SA-12
+-
+    id: SA-15
+    control: Development Process, Standards and Tools
+    Low: NA
+    Moderate: NA
+    High: SA-15
+-
+    id: SA-16
+    control: Developer-Provided Training
+    Low: NA
+    Moderate: NA
+    High: SA-16
+-
+    id: SA-17
+    control: Developer Security Architecture and Design
+    Low: NA
+    Moderate: NA
+    High: SA-17
+-
+    id: SC-1
+    control: System and Communications Protection Policy and Procedures
+    Low: SC-1
+    Moderate: SC-1
+    High: SC-1
+-
+    id: SC-2
+    control: Application Partitioning
+    Low: NA
+    Moderate: SC-2
+    High: SC-2
+-
+    id: SC-3
+    control: Security Function Isolation
+    Low: NA
+    Moderate: NA
+    High: SC-3
+-
+    id: SC-4
+    control: Information In Shared Resources
+    Low: NA
+    Moderate: SC-4
+    High: SC-4
+-
+    id: SC-5
+    control: Denial of Service Protection
+    Low: SC-5
+    Moderate: SC-5
+    High: SC-5
+-
+    id: SC-6
+    control: Resource Availability
+    Low: NA
+    Moderate: SC-6
+    High: SC-6
+-
+    id: SC-7
+    control: Boundary Protection
+    Low: SC-7
+    Moderate: SC-7 (3) (4) (5) (7) (8) (12) (13) (18)
+    High: SC-7 (3) (4) (5) (7) (8) (10) (12) (13) (18) (20) (21)
+-
+    id: SC-8
+    control: Transmission Confidentiality and Integrity
+    Low: NA
+    Moderate: SC-8 (1)
+    High: SC-8 (1)
+-
+    id: SC-10
+    control: Network Disconnect
+    Low: NA
+    Moderate: SC-10
+    High: SC-10
+-
+    id: SC-12
+    control: Cryptographic Key Establishment and Management
+    Low: SC-12
+    Moderate: SC-12 (2) (3)
+    High: SC-12 (1) (2) (3)
+-
+    id: SC-13
+    control: Cryptographic Protection
+    Low: SC-13
+    Moderate: SC-13
+    High: SC-13
+-
+    id: SC-15
+    control: Collaborative Computing Devices
+    Low: SC-15
+    Moderate: SC-15
+    High: SC-15
+-
+    id: SC-17
+    control: Public Key Infrastructure Certificates
+    Low: NA
+    Moderate: SC-17
+    High: SC-17
+-
+    id: SC-18
+    control: Mobile Code
+    Low: NA
+    Moderate: SC-18
+    High: SC-18
+-
+    id: SC-19
+    control: Voice Over Internet Protocol
+    Low: NA
+    Moderate: SC-19
+    High: SC-19
+-
+    id: SC-20
+    control: Secure Name / Address Resolution Service (Authoritative Source)
+    Low: SC-20
+    Moderate: SC-20
+    High: SC-20
+-
+    id: SC-21
+    control: Secure Name / Address Resolution Service (Recursive or Caching Resolver)
+    Low: SC-21
+    Moderate: SC-21
+    High: SC-21
+-
+    id: SC-22
+    control: Architecture and Provisioning for Name / Address Resolution Service
+    Low: SC-22
+    Moderate: SC-22
+    High: SC-22
+-
+    id: SC-23
+    control: Session Authenticity
+    Low: NA
+    Moderate: SC-23
+    High: SC-23 (1)
+-
+    id: SC-24
+    control: Fail in Known State
+    Low: NA
+    Moderate: NA
+    High: SC-24
+-
+    id: SC-28
+    control: Protection of Information At Rest
+    Low: NA
+    Moderate: SC-28 (1)
+    High: SC-28 (1)
+-
+    id: SC-39
+    control: Process Isolation
+    Low: SC-39
+    Moderate: SC-39
+    High: SC-39
+-
+    id: SI-1
+    control: System and Information Integrity Policy and Procedures
+    Low: SI-1
+    Moderate: SI-1
+    High: SI-1
+-
+    id: SI-2
+    control: Flaw Remediation
+    Low: SI-2
+    Moderate: SI-2 (2) (3)
+    High: SI-2 (1) (2) (3)
+-
+    id: SI-3
+    control: Malicious Code Protection
+    Low: SI-3
+    Moderate: SI-3 (1) (2) (7)
+    High: SI-3 (1) (2) (7)
+-
+    id: SI-4
+    control: Information System Monitoring
+    Low: SI-4
+    Moderate: SI-4 (1) (2) (4) (5) (14) (16) (23)
+    High: SI-4 (1) (2) (4) (5) (11) (14) (16) (18) (19) (20) (22) (23) (24)
+-
+    id: SI-5
+    control: Security Alerts, Advisories and Directives
+    Low: SI-5
+    Moderate: SI-5
+    High: SI-5 (1)
+-
+    id: SI-6
+    control: Security Function Verification
+    Low: NA
+    Moderate: SI-6
+    High: SI-6
+-
+    id: SI-7
+    control: Software, Firmware and Information Integrity
+    Low: NA
+    Moderate: SI-7 (1) (7)
+    High: SI-7 (1) (2) (5) (7) (14)
+-
+    id: SI-8
+    control: Spam Protection
+    Low: NA
+    Moderate: SI-8 (1) (2)
+    High: SI-8 (1) (2)
+-
+    id: SI-10
+    control: Information Input Validation
+    Low: NA
+    Moderate: SI-10
+    High: SI-10
+-
+    id: SI-11
+    control: Error Handling
+    Low: NA
+    Moderate: SI-11
+    High: SI-11
+-
+    id: SI-12
+    control: Information Handling and Retention
+    Low: SI-12
+    Moderate: SI-12
+    High: SI-12
+-
+    id: SI-16
+    control: Memory Protection
+    Low: NA
+    Moderate: SI-16
+    High: SI-16
